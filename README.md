@@ -1,6 +1,6 @@
 ### Description
 
-Script measures RPKI Route Origin Validation in specified country from the v4 or v6 networks of available autonomous systems. Measurements are sourced from [RIPE Atlas probes](https://atlas.ripe.net) and addressed to RPKI-invalid networks provided by [Cloudflare](https://isbgpsafeyet.com/) and [JPNIC](https://rov-check.nic.ad.jp/en).
+[Script](https://github.com/tonusoo/per-country-rov-analysis/blob/main/per-country-rov-analysis.py) measures RPKI Route Origin Validation in specified country from the v4 or v6 networks of available autonomous systems. Measurements are sourced from [RIPE Atlas probes](https://atlas.ripe.net) and addressed to RPKI-invalid networks provided by [Cloudflare](https://isbgpsafeyet.com/) and [JPNIC](https://rov-check.nic.ad.jp/en). The script takes a strict approach, that is, even if a single probe is able to reach either of the targets in RPKI-invalid networks, then the entire autonomous system is categorized as not validating.
 
 ### Usage overview
 
@@ -25,6 +25,26 @@ martin@lab-svr:~$
 
 ### Example results
 
+![de v4 rov analysis](https://github.com/tonusoo/per-country-rov-analysis/blob/main/graphs/de_v4_rov_analysis_10062026.png)
+*[IPv4 measurements log for Germany](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/de_v4_rov_analysis_10062026.log)*
+<br><br><br>
+![de v6 rov analysis](https://github.com/tonusoo/per-country-rov-analysis/blob/main/graphs/de_v6_rov_analysis_10062026.png)
+*[IPv6 measurements log for Germany](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/de_v6_rov_analysis_10062026.log)*
+<br><br><br>
+
+![us v4 rov analysis](https://github.com/tonusoo/per-country-rov-analysis/blob/main/graphs/us_v4_rov_analysis_11062026.png)
+*[IPv4 measurements log for United States](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/us_v4_rov_analysis_11062026.log)*
+<br><br><br>
+![us v6 rov analysis](https://github.com/tonusoo/per-country-rov-analysis/blob/main/graphs/us_v6_rov_analysis_11062026.png)
+*[IPv6 measurements log for United States](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/us_v6_rov_analysis_11062026.log)*
+<br><br><br>
+
+![jp v4 rov analysis](https://github.com/tonusoo/per-country-rov-analysis/blob/main/graphs/jp_v4_rov_analysis_12062026.png)
+*[IPv4 measurements log for Japan](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/jp_v4_rov_analysis_12062026.log)*
+<br><br><br>
+![jp v6 rov analysis](https://github.com/tonusoo/per-country-rov-analysis/blob/main/graphs/jp_v6_rov_analysis_12062026.png)
+*[IPv6 measurements log for Japan](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/jp_v6_rov_analysis_12062026.log)*
+<br><br><br>
 
 
 ### Acknowledgements
