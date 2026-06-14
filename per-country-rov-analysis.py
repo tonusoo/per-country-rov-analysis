@@ -343,19 +343,35 @@ async def measure(session, target, af, probe_ids, api_key, sem):
             f"from probes {probes_str}"
         )
 
-        async with session.post(url, headers=headers, json=payload) as resp:
+        try:
 
-            if resp.status not in (200, 201, 202):
-
-                text = await resp.text()
-                logging.error(
-                    f"Error creating a measurement for {target} "
-                    f"and probes {probes_str}: {text}"
-                )
+            if session.closed:
+                logging.error("Session was unexpectedly closed.")
                 return {}
 
-            data = await resp.json()
-            msm_id = data["measurements"][0]
+            async with session.post(
+                url, headers=headers, json=payload
+            ) as resp:
+
+                if resp.status not in (200, 201, 202):
+
+                    text = await resp.text()
+                    logging.error(
+                        f"Error creating a measurement for {target} "
+                        f"and probes {probes_str}: {text}"
+                    )
+                    return {}
+
+                data = await resp.json()
+                msm_id = data["measurements"][0]
+
+        except (aiohttp.ClientError, asyncio.TimeoutError) as err:
+
+            logging.error(
+                f"Network error creating measurement for {target}: "
+                f"{err!r}. Skipping."
+            )
+            return {}
 
         status_url = f"https://atlas.ripe.net/api/v2/measurements/{msm_id}/"
         start_time = time.monotonic()
@@ -377,100 +393,129 @@ async def measure(session, target, af, probe_ids, api_key, sem):
                 f"from {probes_str}; {status_url}"
             )
 
-            async with session.get(status_url) as resp:
+            try:
 
-                if resp.status == 200:
+                if session.closed:
+                    logging.error("Session was unexpectedly closed.")
+                    return {}
 
-                    status_data = await resp.json()
-                    status_name = status_data["status"]["name"]
+                async with session.get(status_url) as resp:
 
-                    # The measurement status is often stuck in
-                    # "Ongoing"(measurement is running on available
-                    # probes) state while the results are actually
-                    # in. Stay on the safe side and proceed only
-                    # when the measurement status is updated from
-                    # "Ongoing".
-                    if status_name == "Stopped":
-                        logging.info(
-                            f"Measurement status for ping target {target} "
-                            f"from {probes_str} returned Stopped. Fetch "
-                            "the results."
-                        )
-                        break
+                    if resp.status == 200:
 
-                    if status_name in (
-                        "Forced to stop",
-                        "No suitable probes",
-                        "Failed",
-                    ):
-                        logging.warning(
+                        status_data = await resp.json()
+                        status_name = status_data["status"]["name"]
+
+                        # The measurement status is often stuck in
+                        # "Ongoing"(measurement is running on available
+                        # probes) state while the results are actually
+                        # in. Stay on the safe side and proceed only
+                        # when the measurement status is updated from
+                        # "Ongoing".
+                        if status_name == "Stopped":
+                            logging.info(
+                                f"Measurement status for ping target {target} "
+                                f"from {probes_str} returned Stopped. Fetch "
+                                "the results."
+                            )
+                            break
+
+                        if status_name in (
+                            "Forced to stop",
+                            "No suitable probes",
+                            "Failed",
+                        ):
+                            logging.warning(
+                                f"Measurement status for ping target {target} "
+                                f"from {probes_str} returned {status_name}. "
+                                "Skipping results fetch."
+                            )
+                            return {}
+
+                        logging.debug(
                             f"Measurement status for ping target {target} "
                             f"from {probes_str} returned {status_name}. "
-                            "Skipping results fetch."
+                            "Sleep for 5 seconds and check again."
                         )
-                        return {}
 
-                    logging.debug(
-                        f"Measurement status for ping target {target} "
-                        f"from {probes_str} returned {status_name}. "
-                        "Sleep for 5 seconds and check again."
-                    )
+            except (aiohttp.ClientError, asyncio.TimeoutError) as err:
+
+                logging.error(
+                    f"Network error checking status at {status_url}: "
+                    f"{err!r}. Skipping."
+                )
+                return {}
 
         results_url = (
             f"https://atlas.ripe.net/api/v2/measurements/{msm_id}/results/"
         )
-        async with session.get(results_url) as resp:
 
-            if resp.status == 200:
+        try:
 
-                results = await resp.json()
+            if session.closed:
+                logging.error("Session was unexpectedly closed.")
+                return {}
 
-                # On rare occasions, the RIPE Atlas API has returned
-                # JSON null for measurement results.
-                if results is None:
-                    logging.error(
-                        f"Measurement results at {results_url} for ping "
-                        f"target {target} from {probes_str} returned null."
-                    )
-                    return {}
+            async with session.get(results_url) as resp:
 
-                parsed_results = {}
+                if resp.status == 200:
 
-                for result in results:
-                    parsed_results[result.get("prb_id")] = result.get(
-                        "rcvd", 0
-                    )
-                    # Measurement result may contain source address
-                    # from RIPE Atlas backend system("from" field;
-                    # always a public address) and from the probe
-                    # itself("src_addr" field; can be a private address
-                    # if the probe is behind NAT). Prefer the src
-                    # address set by the probe, but fall back to
-                    # src address set by the RIPE Atlas backend
-                    # system if the probe is behind NAT.
+                    results = await resp.json()
 
-                    src_addr = result.get("src_addr")
+                    # On rare occasions, the RIPE Atlas API has returned
+                    # JSON null for measurement results.
+                    if results is None:
+                        logging.error(
+                            f"Measurement results at {results_url} for ping "
+                            f"target {target} from {probes_str} returned null."
+                        )
+                        return {}
 
-                    try:
-                        if (
-                            src_addr
-                            and ipaddress.ip_address(src_addr).is_global
-                        ):
-                            ip_srt = src_addr
-                        else:
+                    parsed_results = {}
+
+                    for result in results:
+                        parsed_results[result.get("prb_id")] = result.get(
+                            "rcvd", 0
+                        )
+                        # Measurement result may contain source address
+                        # from RIPE Atlas backend system("from" field;
+                        # always a public address) and from the probe
+                        # itself("src_addr" field; can be a private address
+                        # if the probe is behind NAT). Prefer the src
+                        # address set by the probe, but fall back to
+                        # src address set by the RIPE Atlas backend
+                        # system if the probe is behind NAT.
+
+                        src_addr = result.get("src_addr")
+
+                        try:
+                            if (
+                                src_addr
+                                and ipaddress.ip_address(src_addr).is_global
+                            ):
+                                ip_srt = src_addr
+                            else:
+                                ip_srt = result.get("from")
+
+                        except ValueError:
                             ip_srt = result.get("from")
 
-                    except ValueError:
-                        ip_srt = result.get("from")
+                        logging.info(
+                            f'Probe {result.get("prb_id")} with src addr '
+                            f'{ip_srt} sent {result.get("sent")} '
+                            f'packets to {result.get("dst_name")} and got '
+                            f'{result.get("rcvd")} replies'
+                        )
 
-                    logging.info(
-                        f'Probe {result.get("prb_id")} with src addr '
-                        f'{ip_srt} sent {result.get("sent")} '
-                        f'packets to {result.get("dst_name")} and got '
-                        f'{result.get("rcvd")} replies'
-                    )
+                    return parsed_results
 
-                return parsed_results
+        except (aiohttp.ClientError, asyncio.TimeoutError) as err:
+
+            logging.error(
+                f"Network error fetching results from {results_url}: "
+                f"{err!r}. Skipping."
+            )
+            return {}
 
         return {}
 
