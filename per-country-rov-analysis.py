@@ -500,6 +500,11 @@ async def measure(session, target, af, probe_ids, api_key, sem):
                         except ValueError:
                             ip_srt = result.get("from")
 
+                        # On rare occasions, the "src_addr"
+                        # has been a private address and
+                        # "from" has been an empty string.
+                        ip_srt = (ip_srt or "").strip() or "UNKNOWN"
+
                         logging.info(
                             f'Probe {result.get("prb_id")} with src addr '
                             f'{ip_srt} sent {result.get("sent")} '
