@@ -46,6 +46,20 @@ martin@lab-svr:~$
 *[IPv6 measurements log for Japan](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/jp_v6_rov_analysis_12062026.log)*
 <br><br><br>
 
+![ee v4 rov analysis](https://github.com/tonusoo/per-country-rov-analysis/blob/main/graphs/ee_v4_rov_analysis_15062026.png)
+*[IPv4 measurements log for Estonia](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/ee_v4_rov_analysis_15062026.log)*
+<br><br><br>
+![ee v6 rov analysis](https://github.com/tonusoo/per-country-rov-analysis/blob/main/graphs/ee_v6_rov_analysis_15062026.png)
+*[IPv6 measurements log for Estonia](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/ee_v6_rov_analysis_15062026.log)*
+<br><br><br>
+
+![nl v4 rov analysis](https://github.com/tonusoo/per-country-rov-analysis/blob/main/graphs/nl_v4_rov_analysis_15062026.png)
+*[IPv4 measurements log for Netherlands](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/nl_v4_rov_analysis_15062026.log)*
+<br><br><br>
+![nl v6 rov analysis](https://github.com/tonusoo/per-country-rov-analysis/blob/main/graphs/nl_v6_rov_analysis_15062026.png)
+*[IPv6 measurements log for Netherlands](https://github.com/tonusoo/per-country-rov-analysis/blob/main/logs/nl_v6_rov_analysis_15062026.log)*
+<br><br><br>
+
 
 ### Acknowledgements
 

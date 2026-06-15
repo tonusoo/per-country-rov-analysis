@@ -1,0 +1,449 @@
+2026-06-15 09:45:49 +0300 - [run_measurements] - INFO - Fetching connected RIPE Atlas probes for country EE
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Fetching https://atlas.ripe.net/api/v2/probes/?country_code=ee&status_name=Connected
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 705 in network 195.222.0.0/19 (AS 3327)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 751 in network 212.7.0.0/19 (AS 8728)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 3344 in network 195.80.96.0/19 (AS 8240)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 4165 in network 176.124.247.0/24 (AS 12757)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 6722 in network 195.43.86.0/23 (AS 51349)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 6749 in network 212.7.0.0/19 (AS 8728)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 6815 in network 95.47.236.0/24 (AS 204671)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 7610 in network 195.80.96.0/19 (AS 8240)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 10837 in network 62.128.96.0/24 (AS 3327)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 11447 in network 193.202.40.0/24 (AS 210302)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 11708 in network 159.253.17.0/24 (AS 198068)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 13271 in network 217.146.64.0/20 (AS 49604)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 13962 in network 176.124.247.0/24 (AS 12757)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 13982 in network 185.31.92.0/22 (AS 60415)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 21458 in network 46.226.136.0/21 (AS 56588)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 22491 in network 193.40.0.0/16 (AS 3221)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 22520 in network 193.40.0.0/16 (AS 3221)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 29775 in network 88.196.0.0/16 (AS 3249)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 33211 in network 185.50.96.0/24 (AS 62024)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 34572 in network 193.40.0.0/16 (AS 3221)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 35667 in network 88.196.0.0/16 (AS 3249)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 50581 in network 193.40.0.0/16 (AS 3221)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 50674 in network 85.253.0.0/16 (AS 2586)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 51685 in network 85.194.200.0/23 (AS 61189)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 51850 in network 185.7.254.0/23 (AS 61189)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 53399 in network 46.226.136.0/21 (AS 56588)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 60187 in network 78.28.64.0/18 (AS 1257)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 64067 in network 85.253.0.0/16 (AS 2586)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 64254 in network 85.253.0.0/16 (AS 2586)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 65133 in network 90.190.0.0/15 (AS 3249)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 65205 in network 90.190.0.0/15 (AS 3249)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 65764 in network 84.52.0.0/18 (AS 8728)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1006228 in network 78.28.64.0/18 (AS 1257)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1006229 in network 87.119.160.0/19 (AS 2586)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1008167 in network 185.194.53.0/24 (AS 3214)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1008562 in network 5.101.181.0/24 (AS 198068)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1010947 in network 87.121.86.0/24 (AS 209693)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1010979 in network 83.217.210.0/24 (AS 41745)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1010980 in network 69.12.83.0/24 (AS 207083)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1010981 in network 69.12.83.0/24 (AS 207083)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1011554 in network 185.194.53.0/24 (AS 3214)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1011615 in network 216.144.231.0/24 (AS 207083)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1012746 in network 194.106.96.0/19 (AS 3249)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1014211 in network 195.250.160.0/19 (AS 3249)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1014683 in network 5.45.126.0/24 (AS 198068)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1015420 in network 188.214.36.0/24 (AS 202759)
+2026-06-15 09:45:49 +0300 - [get_probes] - INFO - Found probe 1015912 in network 185.37.252.0/24 (AS 3214)
+2026-06-15 09:45:49 +0300 - [run_measurements] - INFO - Found 47 probes in IPv4 networks distributed across 22 ASNs in EE
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 60187,1006228
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 60187,1006228
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 50674,64067,64254,1006229
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 50674,64067,64254,1006229
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 1008167,1011554,1015912
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 1008167,1011554,1015912
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 22491,22520,34572,50581
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 22491,22520,34572,50581
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 29775,35667,65133,65205,1012746,1014211
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 29775,35667,65133,65205,1012746,1014211
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 705,10837
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 705,10837
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 3344,7610
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 3344,7610
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 751,6749,65764
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 751,6749,65764
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 4165,13962
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 4165,13962
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 1010979
+2026-06-15 09:45:49 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 1010979
+2026-06-15 09:52:24 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 22491,22520,34572,50581 returned Stopped. Fetch the results.
+2026-06-15 09:52:24 +0300 - [measure] - INFO - Probe 22491 with src addr 193.40.72.234 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:24 +0300 - [measure] - INFO - Probe 22520 with src addr 193.40.132.150 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:24 +0300 - [measure] - INFO - Probe 34572 with src addr 193.40.164.119 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:24 +0300 - [measure] - INFO - Probe 50581 with src addr 193.40.104.114 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:24 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 13271
+2026-06-15 09:52:25 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 60187,1006228 returned Stopped. Fetch the results.
+2026-06-15 09:52:25 +0300 - [measure] - INFO - Probe 1006228 with src addr 78.28.88.252 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:25 +0300 - [measure] - INFO - Probe 60187 with src addr 78.28.78.218 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:25 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 13271
+2026-06-15 09:52:25 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 751,6749,65764 returned Stopped. Fetch the results.
+2026-06-15 09:52:26 +0300 - [measure] - INFO - Probe 6749 with src addr 212.7.0.250 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:26 +0300 - [measure] - INFO - Probe 751 with src addr 212.7.1.163 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:26 +0300 - [measure] - INFO - Probe 65764 with src addr 84.52.54.222 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:26 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 6722
+2026-06-15 09:52:27 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 3344,7610 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 50674,64067,64254,1006229 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 1010979 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 7610 with src addr 195.80.113.181 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 6722
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 705,10837 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 1008167,1011554,1015912 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 1006229 with src addr 87.119.163.209 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 50674 with src addr 85.253.189.230 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 64067 with src addr 85.253.30.74 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 64254 with src addr 85.253.137.212 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 21458,53399
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 705,10837 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 1010979 with src addr 83.217.210.80 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 21458,53399
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 10837 with src addr 62.128.96.84 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 705 with src addr 195.222.8.46 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 13982
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 1008167 with src addr 185.194.53.156 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 1011554 with src addr 185.194.53.138 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 13982
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 3344,7610 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 10837 with src addr 62.128.96.84 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 705 with src addr 195.222.8.46 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 51685,51850
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 50674,64067,64254,1006229 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 29775,35667,65133,65205,1012746,1014211 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 22491,22520,34572,50581 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 4165,13962 returned Stopped. Fetch the results.
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 1006229 with src addr 87.119.163.209 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 50674 with src addr 85.253.189.230 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 64067 with src addr 85.253.30.74 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 64254 with src addr 85.253.137.212 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 51685,51850
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 7610 with src addr 195.80.113.181 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 33211
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 1012746 with src addr 194.106.126.43 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 1014211 with src addr 195.250.164.4 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 29775 with src addr 88.196.178.69 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 35667 with src addr 88.196.100.133 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 65133 with src addr 90.191.40.93 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Probe 65205 with src addr 90.190.166.24 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:28 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 33211
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 22491 with src addr 193.40.72.234 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 22520 with src addr 193.40.132.150 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 34572 with src addr 193.40.164.119 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 50581 with src addr 193.40.104.114 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 11708,1008562,1014683
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 29775,35667,65133,65205,1012746,1014211 returned Stopped. Fetch the results.
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 13962 with src addr 176.124.247.26 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 4165 with src addr 176.124.247.17 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 11708,1008562,1014683
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 1008167,1011554,1015912 returned Stopped. Fetch the results.
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 1010979 returned Stopped. Fetch the results.
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 60187,1006228 returned Stopped. Fetch the results.
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 1012746 with src addr 194.106.126.43 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 1014211 with src addr 195.250.164.4 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 29775 with src addr 88.196.178.69 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 35667 with src addr 88.196.100.133 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 65133 with src addr 90.191.40.93 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 65205 with src addr 90.190.166.24 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 1015420
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 1010979 with src addr 83.217.210.80 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 1015420
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 1008167 with src addr 185.194.53.156 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 1011554 with src addr 185.194.53.138 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 6815
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 751,6749,65764 returned Stopped. Fetch the results.
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 1006228 with src addr 78.28.88.252 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 60187 with src addr 78.28.78.218 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 6815
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 65764 with src addr 84.52.54.222 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 6749 with src addr 212.7.0.250 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Probe 751 with src addr 212.7.1.163 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 1010980,1010981,1011615
+2026-06-15 09:52:29 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 4165,13962 returned Stopped. Fetch the results.
+2026-06-15 09:52:30 +0300 - [measure] - INFO - Probe 13962 with src addr 176.124.247.26 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:30 +0300 - [measure] - INFO - Probe 4165 with src addr 176.124.247.17 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 09:52:30 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 1010980,1010981,1011615
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 51685,51850 returned Stopped. Fetch the results.
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 13982 returned Stopped. Fetch the results.
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Probe 51685 with src addr 85.194.201.6 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Probe 51850 with src addr 185.7.255.11 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 1010947
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 21458,53399 returned Stopped. Fetch the results.
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Probe 13982 with src addr 185.31.92.11 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 1010947
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Probe 21458 with src addr 46.226.142.27 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Probe 53399 with src addr 46.226.142.28 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Creating a measurement which will ping valid.rpki.cloudflare.com from probes 11447
+2026-06-15 10:00:09 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 6815 returned Stopped. Fetch the results.
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 6815 with src addr 95.47.236.146 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Creating a measurement which will ping invalid.rpki.cloudflare.com from probes 11447
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 1010980,1010981,1011615 returned Stopped. Fetch the results.
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 1010980,1010981,1011615 returned Stopped. Fetch the results.
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 11708,1008562,1014683 returned Stopped. Fetch the results.
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 1010980 with src addr 69.12.83.23 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 1010981 with src addr 69.12.83.36 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 1011615 with src addr 216.144.231.21 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 705,10837
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 1010980 with src addr 69.12.83.23 sent 3 packets to valid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 1010981 with src addr 69.12.83.36 sent 3 packets to valid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 1011615 with src addr 216.144.231.21 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 705,10837
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 11708,1008562,1014683 returned Stopped. Fetch the results.
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 1008562 with src addr 5.101.181.213 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 1014683 with src addr 5.45.126.247 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 11708 with src addr 159.253.17.190 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 50674,64067,64254,1006229
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 21458,53399 returned Stopped. Fetch the results.
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 1008562 with src addr 5.101.181.213 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 1014683 with src addr 5.45.126.247 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 11708 with src addr 159.253.17.190 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 50674,64067,64254,1006229
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 21458 with src addr 46.226.142.27 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Probe 53399 with src addr 46.226.142.28 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:00:10 +0300 - [measure] - WARNING - Measurement status for ping target invalid.rpki.cloudflare.com from 1015420 returned Failed. Skipping results fetch.
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 3344,7610
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 3344,7610
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 13982 returned Stopped. Fetch the results.
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 51685,51850 returned Stopped. Fetch the results.
+2026-06-15 10:00:10 +0300 - [measure] - WARNING - Measurement status for ping target valid.rpki.cloudflare.com from 1015420 returned Failed. Skipping results fetch.
+2026-06-15 10:00:10 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 22491,22520,34572,50581
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 6722 returned Stopped. Fetch the results.
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Probe 51685 with src addr 85.194.201.6 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Probe 51850 with src addr 185.7.255.11 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 22491,22520,34572,50581
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Probe 13982 with src addr 185.31.92.11 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 29775,35667,65133,65205,1012746,1014211
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 6815 returned Stopped. Fetch the results.
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Probe 6722 with src addr 195.43.87.140 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 29775,35667,65133,65205,1012746,1014211
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 33211 returned Stopped. Fetch the results.
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 33211 returned Stopped. Fetch the results.
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Probe 6815 with src addr 95.47.236.146 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 1010979
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Probe 33211 with src addr 185.50.96.36 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 1010979
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Probe 33211 with src addr 185.50.96.36 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 1008167,1011554,1015912
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 6722 returned Stopped. Fetch the results.
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Probe 6722 with src addr 195.43.87.140 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:11 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 1008167,1011554,1015912
+2026-06-15 10:00:12 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 13271 returned Stopped. Fetch the results.
+2026-06-15 10:00:12 +0300 - [measure] - INFO - Probe 13271 with src addr 217.146.75.157 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:12 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 60187,1006228
+2026-06-15 10:00:13 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 13271 returned Stopped. Fetch the results.
+2026-06-15 10:00:13 +0300 - [measure] - INFO - Probe 13271 with src addr 217.146.75.157 sent 3 packets to invalid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:00:13 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 60187,1006228
+2026-06-15 10:08:06 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 60187,1006228 returned Stopped. Fetch the results.
+2026-06-15 10:08:06 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 1010979 returned Stopped. Fetch the results.
+2026-06-15 10:08:06 +0300 - [measure] - INFO - Probe 1006228 with src addr 78.28.88.252 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:06 +0300 - [measure] - INFO - Probe 60187 with src addr 78.28.78.218 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:06 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 751,6749,65764
+2026-06-15 10:08:07 +0300 - [measure] - INFO - Probe 1010979 with src addr 83.217.210.80 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:07 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 751,6749,65764
+2026-06-15 10:08:07 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 1010947 returned Stopped. Fetch the results.
+2026-06-15 10:08:07 +0300 - [measure] - INFO - Probe 1010947 with src addr 87.121.86.32 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:08:07 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 4165,13962
+2026-06-15 10:08:07 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 1010979 returned Stopped. Fetch the results.
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 1010979 with src addr 83.217.210.80 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 4165,13962
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 705,10837 returned Stopped. Fetch the results.
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 50674,64067,64254,1006229 returned Stopped. Fetch the results.
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 1008167,1011554,1015912 returned Stopped. Fetch the results.
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 10837 with src addr 62.128.96.84 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 705 with src addr 195.222.8.46 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 1010980,1010981,1011615
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 1006229 with src addr 87.119.163.209 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 50674 with src addr 85.253.189.230 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 64067 with src addr 85.253.30.74 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 64254 with src addr 85.253.137.212 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 1010980,1010981,1011615
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 22491,22520,34572,50581 returned Stopped. Fetch the results.
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 29775,35667,65133,65205,1012746,1014211 returned Stopped. Fetch the results.
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 1008167 with src addr 185.194.53.156 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 1011554 with src addr 185.194.53.138 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 11708,1008562,1014683
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 22491 with src addr 193.40.72.234 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 22520 with src addr 193.40.132.150 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 34572 with src addr 193.40.164.119 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 50581 with src addr 193.40.104.114 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 11708,1008562,1014683
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 1012746 with src addr 194.106.126.43 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 1014211 with src addr 195.250.164.4 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 29775 with src addr 88.196.178.69 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 35667 with src addr 88.196.100.133 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 65133 with src addr 90.191.40.93 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Probe 65205 with src addr 90.190.166.24 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 21458,53399
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Measurement status for ping target invalid.rpki.cloudflare.com from 11447 returned Stopped. Fetch the results.
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 705,10837 returned Stopped. Fetch the results.
+2026-06-15 10:08:08 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 22491,22520,34572,50581 returned Stopped. Fetch the results.
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 11447 with src addr 193.202.40.4 sent 3 packets to invalid.rpki.cloudflare.com and got 0 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 21458,53399
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 10837 with src addr 62.128.96.84 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 705 with src addr 195.222.8.46 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 1015420
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 1008167,1011554,1015912 returned Stopped. Fetch the results.
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 22491 with src addr 193.40.72.234 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 22520 with src addr 193.40.132.150 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 34572 with src addr 193.40.164.119 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 50581 with src addr 193.40.104.114 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 1015420
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 60187,1006228 returned Stopped. Fetch the results.
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 1008167 with src addr 185.194.53.156 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 1011554 with src addr 185.194.53.138 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 51685,51850
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 1006228 with src addr 78.28.88.252 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Probe 60187 with src addr 78.28.78.218 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:09 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 51685,51850
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 29775,35667,65133,65205,1012746,1014211 returned Stopped. Fetch the results.
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Probe 1012746 with src addr 194.106.126.43 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Probe 1014211 with src addr 195.250.164.4 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Probe 29775 with src addr 88.196.178.69 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Probe 35667 with src addr 88.196.100.133 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Probe 65133 with src addr 90.191.40.93 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Probe 65205 with src addr 90.190.166.24 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 13982
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 50674,64067,64254,1006229 returned Stopped. Fetch the results.
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 3344,7610 returned Stopped. Fetch the results.
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 11447 returned Stopped. Fetch the results.
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Probe 7610 with src addr 195.80.113.181 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 13982
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Probe 11447 with src addr 193.202.40.4 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:08:10 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 6815
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Probe 1006229 with src addr 87.119.163.209 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Probe 50674 with src addr 85.253.189.230 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Probe 64067 with src addr 85.253.30.74 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Probe 64254 with src addr 85.253.137.212 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 6815
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Measurement status for ping target valid.rpki.cloudflare.com from 1010947 returned Stopped. Fetch the results.
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 3344,7610 returned Stopped. Fetch the results.
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Probe 1010947 with src addr 87.121.86.32 sent 3 packets to valid.rpki.cloudflare.com and got 3 replies
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 33211
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Probe 7610 with src addr 195.80.113.181 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:08:11 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 33211
+2026-06-15 10:16:04 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 1010980,1010981,1011615 returned Stopped. Fetch the results.
+2026-06-15 10:16:04 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 751,6749,65764 returned Stopped. Fetch the results.
+2026-06-15 10:16:04 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 13982 returned Stopped. Fetch the results.
+2026-06-15 10:16:05 +0300 - [measure] - WARNING - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 1015420 returned Failed. Skipping results fetch.
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 6722
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 1010980 with src addr 69.12.83.23 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 1010981 with src addr 69.12.83.36 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 1011615 with src addr 216.144.231.21 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 6722
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 11708,1008562,1014683 returned Stopped. Fetch the results.
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 65764 with src addr 84.52.54.222 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 6749 with src addr 212.7.0.250 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 751 with src addr 212.7.1.163 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 13271
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 13982 returned Stopped. Fetch the results.
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 33211 returned Stopped. Fetch the results.
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 13982 with src addr 185.31.92.11 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 13271
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 21458,53399 returned Stopped. Fetch the results.
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 51685,51850 returned Stopped. Fetch the results.
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 1008562 with src addr 5.101.181.213 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 1014683 with src addr 5.45.126.247 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 11708 with src addr 159.253.17.190 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 11447
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 13982 with src addr 185.31.92.11 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 11447
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 33211 with src addr 185.50.96.36 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Creating a measurement which will ping v4.valid.rov-check.nic.ad.jp from probes 1010947
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 4165,13962 returned Stopped. Fetch the results.
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 21458 with src addr 46.226.142.27 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 53399 with src addr 46.226.142.28 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Creating a measurement which will ping v4.invalid.rov-check.nic.ad.jp from probes 1010947
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 51685 with src addr 85.194.201.6 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 51850 with src addr 185.7.255.11 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 13962 with src addr 176.124.247.26 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Probe 4165 with src addr 176.124.247.17 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 1010980,1010981,1011615 returned Stopped. Fetch the results.
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 4165,13962 returned Stopped. Fetch the results.
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 11708,1008562,1014683 returned Stopped. Fetch the results.
+2026-06-15 10:16:05 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 51685,51850 returned Stopped. Fetch the results.
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 1010980 with src addr 69.12.83.23 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 1010981 with src addr 69.12.83.36 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 1011615 with src addr 216.144.231.21 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 1 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 13962 with src addr 176.124.247.26 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 4165 with src addr 176.124.247.17 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 21458,53399 returned Stopped. Fetch the results.
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 51685 with src addr 85.194.201.6 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 51850 with src addr 185.7.255.11 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 1008562 with src addr 5.101.181.213 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 1014683 with src addr 5.45.126.247 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 11708 with src addr 159.253.17.190 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 21458 with src addr 46.226.142.27 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:06 +0300 - [measure] - INFO - Probe 53399 with src addr 46.226.142.28 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:06 +0300 - [measure] - WARNING - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 1015420 returned Failed. Skipping results fetch.
+2026-06-15 10:16:07 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 33211 returned Stopped. Fetch the results.
+2026-06-15 10:16:08 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 6815 returned Stopped. Fetch the results.
+2026-06-15 10:16:08 +0300 - [measure] - INFO - Probe 33211 with src addr 185.50.96.36 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:08 +0300 - [measure] - INFO - Probe 6815 with src addr 95.47.236.146 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:16:09 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 751,6749,65764 returned Stopped. Fetch the results.
+2026-06-15 10:16:09 +0300 - [measure] - INFO - Probe 65764 with src addr 84.52.54.222 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:09 +0300 - [measure] - INFO - Probe 6749 with src addr 212.7.0.250 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:09 +0300 - [measure] - INFO - Probe 751 with src addr 212.7.1.163 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:16:10 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 6815 returned Stopped. Fetch the results.
+2026-06-15 10:16:10 +0300 - [measure] - INFO - Probe 6815 with src addr 95.47.236.146 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:24:08 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 11447 returned Stopped. Fetch the results.
+2026-06-15 10:24:08 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 1010947 returned Stopped. Fetch the results.
+2026-06-15 10:24:08 +0300 - [measure] - INFO - Probe 11447 with src addr 193.202.40.4 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:24:08 +0300 - [measure] - INFO - Probe 1010947 with src addr 87.121.86.32 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:24:09 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 1010947 returned Stopped. Fetch the results.
+2026-06-15 10:24:09 +0300 - [measure] - INFO - Probe 1010947 with src addr 87.121.86.32 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:24:11 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 11447 returned Stopped. Fetch the results.
+2026-06-15 10:24:11 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 13271 returned Stopped. Fetch the results.
+2026-06-15 10:24:12 +0300 - [measure] - INFO - Measurement status for ping target v4.invalid.rov-check.nic.ad.jp from 6722 returned Stopped. Fetch the results.
+2026-06-15 10:24:12 +0300 - [measure] - INFO - Probe 11447 with src addr 193.202.40.4 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:24:12 +0300 - [measure] - INFO - Probe 13271 with src addr 217.146.75.157 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:24:12 +0300 - [measure] - INFO - Probe 6722 with src addr 195.43.87.140 sent 3 packets to v4.invalid.rov-check.nic.ad.jp and got 0 replies
+2026-06-15 10:24:12 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 6722 returned Stopped. Fetch the results.
+2026-06-15 10:24:12 +0300 - [measure] - INFO - Probe 6722 with src addr 195.43.87.140 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:24:12 +0300 - [measure] - INFO - Measurement status for ping target v4.valid.rov-check.nic.ad.jp from 13271 returned Stopped. Fetch the results.
+2026-06-15 10:24:13 +0300 - [measure] - INFO - Probe 13271 with src addr 217.146.75.157 sent 3 packets to v4.valid.rov-check.nic.ad.jp and got 3 replies
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 1257 (SWIPNET - Tele2 Sverige AB); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 1257 (SWIPNET - Tele2 Sverige AB); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 2586 (ELISAEE-AS Elisa Eesti AS); test: cloudflare; result: not_validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 2586 (ELISAEE-AS Elisa Eesti AS); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 3214 (XTOM xTom GmbH); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 3214 (XTOM xTom GmbH); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 3221 (EENet-AS Haridus- ja Teadusministeerium); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 3221 (EENet-AS Haridus- ja Teadusministeerium); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 3249 (ESTPAK Telia Eesti AS); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 3249 (ESTPAK Telia Eesti AS); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 3327 (CITIC CITIC Telecom CPC Netherlands B.V.); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 3327 (CITIC CITIC Telecom CPC Netherlands B.V.); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 8240 (AS8240 Information System Authority); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 8240 (AS8240 Information System Authority); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 8728 (AS INFONET); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 8728 (AS INFONET); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 12757 (IPTRON IPTRON.NET OU); test: cloudflare; result: not_validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 12757 (IPTRON IPTRON.NET OU); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 41745 (FORTIS-AS Baykov Ilya Sergeevich); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 41745 (FORTIS-AS Baykov Ilya Sergeevich); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 49604 (ZONE Zone Media OU); test: cloudflare; result: not_validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 49604 (ZONE Zone Media OU); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 51349 (EIS-AS Foundation Eesti Interneti Sihtasutus); test: cloudflare; result: not_validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 51349 (EIS-AS Foundation Eesti Interneti Sihtasutus); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 56588 (EE-CERT Information System Authority); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 56588 (EE-CERT Information System Authority); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 60415 (LOGINET-AS Loginet Solutions LLC); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 60415 (LOGINET-AS Loginet Solutions LLC); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 61189 (ELKDATA Elkdata OU); test: cloudflare; result: not_validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 61189 (ELKDATA Elkdata OU); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 62024 (PACS SIHTASUTUS EESTI TERVISHOIU PILDIPANK); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 62024 (PACS SIHTASUTUS EESTI TERVISHOIU PILDIPANK); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 198068 (PAGM-AS P.A.G.M. OU); test: cloudflare; result: not_validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 198068 (PAGM-AS P.A.G.M. OU); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 202759 (FairyHosting RJ Network OU); test: cloudflare; result: inconclusive
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 202759 (FairyHosting RJ Network OU); test: jpnic; result: inconclusive
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 204671 (HABR-AS Habr Europe OU); test: cloudflare; result: not_validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 204671 (HABR-AS Habr Europe OU); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 207083 (HostSlim-Global-Network HOSTSLIM OU); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 207083 (HostSlim-Global-Network HOSTSLIM OU); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 209693 (OC-NETWORK OC NETWORKS LIMITED); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 209693 (OC-NETWORK OC NETWORKS LIMITED); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 210302 (PIPEDRIVE-M3 Pipedrive OU); test: cloudflare; result: validating
+2026-06-15 10:24:14 +0300 - [summarize_as_results] - INFO - AS 210302 (PIPEDRIVE-M3 Pipedrive OU); test: jpnic; result: validating
+2026-06-15 10:24:14 +0300 - [generate_graph] - INFO - Graph successfully saved to "ee_v4_rov_analysis_15062026.png"
+country,validating_asns,not_validating_asns,inconclusive_asns,protocol
+ee,14,7,1,ipv4
